@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forms</title>
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <body>
+        <div class="wrapper">
+            <img src="./img/Saylani-logo.png" class="img-fluid" />
+        </div>
+        <h1 class="mainheading">student registration form</h1>
+
+        <div class=" containerr">
+            <form action="thankyou.html" class="form" method="POST">
+                <div class="label-control">
+                    <label class="" for="email">first name:</label>
+                </div>
+                <input type="text" class="input" name="fname" id="fname" class="form-inline" required
+                    placeholder="Enter First Name" maxlength="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+                <br>
+                <div class="label-control">
+                    <label for="lname">Last name:</label>
+                </div>
+                <input type="text" name="lname" class="input" id="lname" required placeholder="Enter Last Name" maxlength="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+                <br>
+                <div class="label-control">
+                 <label for="date">date of birth</label>
+                </div>
+                <input type="date" class="input" name="date" id="date" required >
+                <br>
+                <div class="label-control">
+                    <label for="email">email id</label>
+                   </div>
+                   <input type="email" name="email" class="input" placeholder="Enter Your Email" id="email" required >
+                   <br>
+
+                   <div class="label-control">
+                    <label for="lname">mobile number:</label>
+                </div>
+                <input type="text" name="lname" class="input" id="lname" required placeholder="Enter Last Name" maxlength="30">
+                <span>(10 digit number)</span>
+                <br>
+
+                <div class="label-control">
+                    <label for="gender">gender</label>
+                </div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Female</label>
+                <input type="radio" id="Female" name="gender" value="Female">
+                <br>
+                <div class="label-control lable-address">
+                    <label for="address">address</label>
+                </div>
+                <textarea name="address" id="address" rows="5" cols="26" required maxlength="50"></textarea>
+                <br>
+                <div class="label-control">
+                    <label for="city">city:</label>
+                </div>
+                <input type="text" name="city" class="input" id="city" required placeholder="Enter city Name" maxlength="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+                <br>
+
+                <div class="label-control">
+                    <label for="pin">pin:</label>
+                </div>
+                <input type="text" name="pin" class="input" id="pin" required placeholder="Enter Pin Code" maxlength="30">
+                <span>(6 digits number)</span>
+                <br>
+
+                <div class="label-control">
+                    <label for="city">state:</label>
+                </div>
+                <input type="text" name="state" class="input" id="state" required placeholder="Enter State Name" maxlength="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+                <br>
+
+                <div class="label-control">
+                    <label for="country">country:</label>
+                </div>
+                <input type="text" name="country" class="input" id="country" required placeholder="Enter Country Name" maxlength="30">
+                <br>
+
+                <div class="label-control">
+                    <label for="hobbies">hobbies</label>
+                </div>
+                <label for="drawing">Drawing</label>
+                <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+
+                <label for="singing">Singing</label>
+                <input type="checkbox" id="singing" name="hobbies" value="singing">
+                
+                <label for="dancing">Dancing</label>
+                <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+
+                <label for="sketching">Sketching</label>
+                <input type="checkbox" id="sketching" name="hobbies" value="sketching">
+                <br>
+                <div class="label-control">
+                </div>
+                <label for="others">Others</label>
+                <input type="checkbox" id="others" name="hobbies" value="others">
+                <input type="text" name="hobbies" class="input" maxlength="30">
+                <br>
+                <div class="label-control">
+                    <label for="qualifications">qualifications</label>
+                </div>
+
+               <table >
+                   <thead>
+                       <tr>
+                           <td>S. NO</td>
+                           <td>Examination</td>
+                           <td>Board</td>
+                           <td>Percentage</td>
+                           <td>Year of passing</td>
+                       </tr>
+                       </thead>
+                       <tbody>
+                       <tr>
+                           <td>
+                               01
+                           </td>
+                           <td>Class X</td>
+                           <td><input type="text" class="input"></td>
+                           <td><input type="text" class="input"></td>
+                           <td><input type="text" class="input"></td>
+                       </tr>
+
+                       <tr>
+                        <td>
+                            02
+                        </td>
+                        <td>Class XII</td>
+                        <td><input type="text" class="input"></td>
+                        <td><input type="text" class="input"></td>
+                        <td><input type="text" class="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            03
+                        </td>
+                        <td>Graduation</td>
+                        <td><input type="text" class="input"></td>
+                        <td><input type="text" class="input"></td>
+                        <td><input type="text" class="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            04
+                        </td>
+                        <td>Masters</td>
+                        <td><input type="text" class="input"></td>
+                        <td><input type="text" class="input"></td>
+                        <td><input type="text" class="input"></td>
+                    </tr>
+                    </tbody>
+               </table>
+                
+                <br>
+                <div class="label-control">
+                    <label for="qualifications">Course<br>Applied for</label>
+                </div>
+                <label for="bca">B CA</label>
+                <input type="radio" id="bca" name="course" value="bca">
+                <label for="bcom">B Com</label>
+                <input type="radio" id="bcom" name="course" value="bcom">
+                <label for="bsc">B Sc</label>
+                <input type="radio" id="bsc" name="course" value="bsc">
+                <label for="male">B.A</label>
+                <input type="radio" id="bcom" name="course" value="bcom">
+                <br>
+                <div class="submitBtn">
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
