@@ -11,6 +11,9 @@
 
 .containerr {
     background-color: blueviolet;
+    border: 2px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .wrapper {
