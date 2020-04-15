@@ -3,7 +3,9 @@
     color: whitesmoke;
     margin-bottom: 15px;
 }
-
+#date, #month, #year, option{
+    color: black;
+}
 .form {
     padding-top: 12px;
     padding-left: 11px;
