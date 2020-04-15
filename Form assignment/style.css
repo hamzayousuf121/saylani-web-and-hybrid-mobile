@@ -6,6 +6,11 @@
 #date, #month, #year, option{
     color: black;
 }
+select{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
 .form {
     padding-top: 12px;
     padding-left: 11px;
